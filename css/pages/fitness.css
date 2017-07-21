@@ -1,0 +1,156 @@
+/*FITNESS PAGE*/
+.main-content {
+	float: right;
+	width: 900px;
+	padding-top: 37px;
+}
+
+.main-content_padding {
+	padding-top: 0;
+}
+
+.page-image {
+	background-image: url(../../img/content/fitnessBig.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 879px;
+	height: 354px;
+	max-width: 100%;
+	margin-left: 1px;
+	margin-bottom: 23px;
+	position: relative;
+}
+
+.page-image:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 879px;
+	height: 354px;
+	background-color: rgba(0, 0, 0,.5);
+}
+
+.page-image__text {
+	position: absolute;
+	top: 157px;
+	left: 64px;
+	font-family: "OpenSansBold", sans-serif;
+	font-size: 49px;
+	line-height: 38px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+
+.column {
+	width: 880px;
+	padding-right: 180px;
+}
+
+.page-text {
+	height: 100%;
+	font-size: 18px; 
+	line-height: 30px;
+	margin-bottom: 17px;
+}
+
+.page-text__block {
+	margin-bottom: 15px;
+}
+
+.page-text__block:last-of-type {
+	margin-bottom: 7px;
+}
+
+.page-text__block-bold {
+	font-family: "OpenSansBold", sans-serif;
+}
+
+.page-text__list {
+	padding-left: 13px;
+	list-style-type: none;
+}
+
+.page-text__list:last-child {
+	margin-bottom: 0;
+}
+
+.page-text__item {
+	margin-bottom: 5px;
+}
+
+.page-text__item::before {
+	content: "\002022";
+	list-style-position: outside;
+	padding-right: 23px;
+}
+
+.page-description {
+	background-image: url(../../img/bg/section_bg.png);
+	margin-bottom: 54px;
+	padding: 12px 15px 12px 30px;
+	font-size: 18px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+
+.page-description__bold {
+	font-family: "OpenSansBold", sans-serif;
+}
+
+.partners__title {
+	font-family: "OpenSansBold", sans-serif;
+	font-size: 49px;
+	color: #221f1f;
+	text-transform: uppercase;
+	margin-bottom: 34px;
+}
+
+.partners__list {
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 17px;
+	text-align: center;
+}
+
+.partners__item:nth-child(3n+1) {
+	margin-left: 0;
+}
+
+.partners__item:nth-child(n+3) {
+	margin-top: -4px;
+}
+
+.partners__item {
+	display: inline-block;
+	width: 160px;
+	margin-left: 105px;
+	margin-bottom: 54px;
+}
+
+.partners__link {
+	display: inline-block;
+}
+
+.partners__picture {
+	vertical-align: middle;
+}
+
+.partners__picture {
+	vertical-align: middle;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.partners__picture:hover {
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	-ms-filter: grayscale(0%);
+	-o-filter: grayscale(0%);
+	filter: grayscale(0%);
+  transition: .5s;
+}
+/*END OF FITNESS PAGE*/

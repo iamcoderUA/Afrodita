@@ -1,0 +1,38 @@
+.breadcrumbs {
+	margin-bottom: 23px;
+}
+
+.breadcrumbs-margin {
+	margin-bottom: 25px;
+}
+
+.breadcrumbs__list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.breadcrumbs__item {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.breadcrumbs__item:after {
+	content: "/";
+}
+
+.breadcrumbs__item_last:after {
+	display: none;
+}
+
+.breadcrumbs__link {
+	font-family: "OpenSansLigIta", sans-serif;
+	font-size: 14px;
+	color: #f89513;
+}
+
+.breadcrumbs__link_last {
+	color: #221f1f;
+	text-decoration: none;
+	cursor: default;
+}

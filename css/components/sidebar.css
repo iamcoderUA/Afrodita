@@ -1,0 +1,138 @@
+/*SIDEBAR*/
+.sidebar {
+	float: left;
+	width: 190px;
+	margin-right: 10px;
+	padding-top: 43px;
+	padding-left: 20px;
+}
+
+.nav-menu {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.nav-menu__item {
+	display: block;
+	margin-bottom: 26px;
+}
+
+.nav-menu__item:last-child{
+	margin-bottom: 0;
+}
+
+.nav-menu__link {
+	font-family: "OpenSansBold", sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding-left: 38px;
+	color: #f89513;
+	text-decoration: none;
+	position: relative;
+}
+
+.nav-menu__link:hover {
+	color: #221f1f;
+	transition: .5s;
+}
+
+.nav-menu__link-main:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../../img/icons/main_icon.png) no-repeat center;
+	width: 19px;
+	height: 14px;
+}
+
+.nav-menu__link-services:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../../img/icons/services_icon.png) no-repeat center;
+	width: 19px;
+	height: 14px;
+}
+
+.nav-menu__link-comments:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	background: url(../../img/icons/comments_icon.png) no-repeat center;
+	width: 21px;
+	height: 19px;
+}
+
+.nav-menu__link-main:hover:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../../img/icons/main_icon_black.png) no-repeat center;
+	width: 19px;
+	height: 14px;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+
+.nav-menu__link-services:hover:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../../img/icons/services_icon_black.png) no-repeat center;
+	width: 19px;
+	height: 14px;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+
+.nav-menu__link-comments:hover:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	background: url(../../img/icons/comments_icon_black.png) no-repeat center;
+	width: 21px;
+	height: 19px;
+	-webkit-transition: .5s;
+  transition: .5s;
+}
+
+.nav-menu__item_active .nav-menu__link {
+	color: #221f1f;
+	cursor: default;
+}
+
+.nav-menu__item_active .nav-menu__link-main:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../../img/icons/main_icon_black.png) no-repeat center;
+	width: 19px;
+	height: 14px;
+}
+
+.nav-menu__item_active .nav-menu__link-services:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../../img/icons/services_icon_black.png) no-repeat center;
+	width: 19px;
+	height: 14px;
+}
+
+.nav-menu__item_active .nav-menu__link-comments:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	background: url(../../img/icons/comments_icon_black.png) no-repeat center;
+	width: 21px;
+	height: 19px;
+}
+/*END OF SIDEBAR*/

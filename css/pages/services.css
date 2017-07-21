@@ -1,0 +1,88 @@
+/*SERVICE PAGE */
+.services {
+	width: 900px;
+	height: 100%;
+	margin-bottom: 3px;
+}
+
+.services__title {
+	font-family: "RobotoBold", sans-serif;
+	font-size: 49px;
+	line-height: 38px;
+	color: #221f1f;
+	margin-left: -3px;
+	margin-bottom: 48px;
+}
+
+.services__list {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 20px;
+	margin-left: -45px;
+	list-style-type: none;
+}
+
+.services__item {
+	display: inline-block;
+	width: 261px;
+	height: 100%;
+	margin-bottom: 45px;
+	margin-left: 45px;
+	vertical-align: text-top;
+}
+
+.services__photo {
+	border-radius: 5px;
+	margin-bottom: 24px;
+	width: 250px;
+	height: 153px;
+}
+
+.services__photo-first {
+	background-image: url(../../img/content/machines.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.services__photo-second {
+	background-image: url(../../img/content/apple.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.services__photo-third {
+	background-image: url(../../img/content/stretch.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.services__photo-fourth {
+	background-image: url(../../img/content/TPX.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.services__photo-fifth {
+	background-image: url(../../img/content/mussles.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.services__photo-sixth {
+	background-image: url(../../img/content/pool.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.services__name {
+	font-family: "OpenSansBold", sans-serif;
+	font-size: 18px;
+	line-height: 21px;
+	margin-bottom: 6px;
+}
+
+.services__text {
+	font-size: 14px;
+	line-height: 21px;
+}
+/*END OF SERVICE PAGE*/

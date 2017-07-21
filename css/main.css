@@ -1,0 +1,28 @@
+/* Настройки лейаута */
+@import "layout/reset.css";
+@import "layout/fonts.css";
+@import "layout/base.css";
+
+/* Компоненты */
+@import "components/header.css";
+@import "components/sidebar.css";
+@import "components/breadcrumbs.css";
+@import "components/footer.css";
+
+/* Страницы */
+@import "pages/index.css";
+@import "pages/fitness.css";
+@import "pages/services.css";
+@import "pages/comments.css";
+
+
+
+
+
+
+
+
+
+
+
+
